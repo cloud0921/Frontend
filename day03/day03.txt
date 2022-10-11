@@ -57,10 +57,26 @@ ul과 ol
 
 ------------------------------------------------------
 
-<table>
+<table border="테두리", width="가로길이", align="정렬(center, right, left)">
 	<tr>----- 각테이블의 층(row)
-		<td></td> --- 데이터
+		<td width="길이", height="높이", rowspan="세로 병합", colspan="가로 병합"></td> --- 데이터
 		<th></th> --- 제목
 	</tr>
 </table>
+
+-----------------------------------------------------
+iframe
+
+<iframe src="삽입 할 페이지 주소 또는 문서 위치" width, height>......
+</iframe>
+
+
+
+
+
+
+
+
+
+
 
