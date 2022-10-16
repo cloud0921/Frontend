@@ -1,0 +1,31 @@
+CSS의 배경(background)
+
+    background-color
+        HTML 요소의 배경색 설정
+    
+    background-image
+        HTML요소의 배경으로 나타낼 배경 이미지를 선택
+        배경 이미지는 기본 설정으로 바둑판 형식으로 반복되어 나타남
+        ex) background-image: url("이미지 파일 경로")
+    
+    background-repeat
+        배경이미지를 수평이나 수직 방향으로 반복하도록 설정
+        (repeat, repeat-x, repeat-y, no-repeat(반복안함))
+
+    background-position
+        반복되지 않는 배경 이미지의 상대 위치를 설정
+        %나 px를 사용하여 상대위치를 정할 수 있음
+        상대위치를 정하는 기준은 해당 요소의 왼쪽 상단
+
+    background-attachment
+        위치가 설정된 배경 이미지를 원하는 위치에 고정
+        고정된 배경 이미지는 스크롤과 무관하게 화면 위치에서 이동 되지않음
+        fixed
+
+    background-size
+        배경, 크기를 설정
+        px,%를 사용
+
+    cover
+        배경이미지의 가로 세로 모두 요소보다는 크다는 조건하에 가능한 이미지를
+        작게 설정 = 배경 이미지의 크기는 요소의 크기보다 항상 크거나 같음

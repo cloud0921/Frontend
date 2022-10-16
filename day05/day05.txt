@@ -82,7 +82,46 @@ CSS의 텍스트
 
     line-height
         텍스트간의 줄 간격(높이)를 설정
+    
+    text-indent
+        첫 줄 들여쓰기
 
+    text-decoration
+        텍스트에 여러가지 효과를 설정하거나 제거
+
+    text-transform
+        텍스트에 포함된 영문자에 대해 대소문자를 결정
+        uppercase, lowercase, capitalize
+    
+    font-varoamt
+        소문자를 작은 크기의 대문자로 변경
+    
+    text-shadow
+        텍스트의 그림자 효과를 설정
+
+    text-space
+        스페이스 탭, 줄바꿈, 자동 줄바꿈을 어떻게 처리할지 설정
+
+    text-overflow
+        텍스트가 기준선을 벗어난 경우 텍스트를 어떻게 처리할 것인지 설정
+
+    font-size
+        텍스트의 크기를 설정
+        px,%,em,rem
+
+        px: 스크린의 픽셀을 기준으로 하는 절대 크기
+        %: 기본 크기(16px)를 기준으로 하는 상대 크기를
+        
+    font-family
+        글꼴을 설정
+        하나의 글꼴을 설정, 여러개의 글꼴을 등록
+
+        여러개의 글꼴이 등록되어있는 경우 웹 브라우저에서 순서대로 사용 여부를 판단하여 적용
+        글꼴 이름에 띄어쓰기가 포함된 경우 반드시 따옴표로 감싸주어야함
+
+        무료 웹폰트
+            구글 폰트: https://font.google.com
+            
 
 
 
